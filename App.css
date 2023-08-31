@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+:root {
+  --mainColor: yellow;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.todoList {
+  width: 50%;
+  background-color: var(--mainColor);
+  box-shadow: 0px 0px 10px #fff;
+  margin-top: 5em;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 0.6em;
+  width: 60%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #000;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.7em 1em;
+  outline: none;
+  border: none;
+  margin-left: 0.5em;
+  background-color: #000;
+  color: var(--mainColor);
+}
+ol {
+  text-align: left;
+  width: 70%;
+  margin: 1em auto;
+}
+
+.addItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+li,.fa-trash{
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+ .fa-trash:hover {
+  color: red;
+ }
